@@ -10,6 +10,14 @@ import Foundation
 class MoviesService {
     
     func fetchMovies(completion: @escaping (([MoviesModel]?, Error?) -> Void)) {
+        guard Connectivity.isConnectedToInternet else {
+            if let cachedMovies = Cache.movies {
+                let movies = parseMovies(cachedMovies)
+                completion(movies, nil)
+            }
+            return
+        }
+        
         APIClient.sendRequest(request: .popularMovies, type: MoviesResponse.self){ [weak self] (response, error) in
             if let response = response {
                 Cache.movies = response.results

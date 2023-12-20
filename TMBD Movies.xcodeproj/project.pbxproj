@@ -33,6 +33,7 @@
 		FA5345112B31C2890060E477 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5345102B31C2890060E477 /* APIClient.swift */; };
 		FA5345132B31C2C40060E477 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5345122B31C2C40060E477 /* APIConstants.swift */; };
 		FA5345152B31C2FF0060E477 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5345142B31C2FF0060E477 /* APIRouter.swift */; };
+		FA541A1C2B3320DF00B32639 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA541A1B2B3320DF00B32639 /* Connectivity.swift */; };
 		FA640B182B31C9C000DD382F /* UIImageView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA640B172B31C9C000DD382F /* UIImageView-Extension.swift */; };
 		FA640B1D2B31CE4A00DD382F /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA640B1B2B31CE4A00DD382F /* MoviesTableViewCell.swift */; };
 		FA640B1E2B31CE4A00DD382F /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA640B1C2B31CE4A00DD382F /* MoviesTableViewCell.xib */; };
@@ -95,6 +96,7 @@
 		FA5345102B31C2890060E477 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		FA5345122B31C2C40060E477 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		FA5345142B31C2FF0060E477 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		FA541A1B2B3320DF00B32639 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		FA640B172B31C9C000DD382F /* UIImageView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView-Extension.swift"; sourceTree = "<group>"; };
 		FA640B1B2B31CE4A00DD382F /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		FA640B1C2B31CE4A00DD382F /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
@@ -179,9 +181,9 @@
 		FA1194B12B2C62D10048A541 /* TMBD Movies */ = {
 			isa = PBXGroup;
 			children = (
+				FA5344E92B31BA430060E477 /* Application */,
 				FA5345092B31C16B0060E477 /* APIServices */,
 				FA5345072B31C1340060E477 /* Networking */,
-				FA5344E92B31BA430060E477 /* Application */,
 				FA5345012B31C02F0060E477 /* Common */,
 				FA5345042B31C0AA0060E477 /* Models */,
 				FA5344FE2B31BE450060E477 /* Extensions */,
@@ -262,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5345082B31C1440060E477 /* APIResponse */,
+				FA541A1B2B3320DF00B32639 /* Connectivity.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -567,6 +570,7 @@
 				FA1194B32B2C62D10048A541 /* AppDelegate.swift in Sources */,
 				FA5344F92B31BB0B0060E477 /* ViewControllerFactory.swift in Sources */,
 				FA5345032B31C0610060E477 /* Constants.swift in Sources */,
+				FA541A1C2B3320DF00B32639 /* Connectivity.swift in Sources */,
 				FA5345152B31C2FF0060E477 /* APIRouter.swift in Sources */,
 				FAAD082E2B31C43A00608279 /* Cache.swift in Sources */,
 				FA5345112B31C2890060E477 /* APIClient.swift in Sources */,
